@@ -28,3 +28,8 @@
 
 - Added residue-level Cα coordinates and backbone completeness flags
 - Upgraded residue_table.csv from identity-only to structure-aware representation
+
+- Added rough structural environment labels using centroid-distance heuristic
+- Classified residues into approximate core and surface groups
+
+

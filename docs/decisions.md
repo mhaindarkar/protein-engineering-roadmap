@@ -20,3 +20,9 @@ A residue-level CSV table is created from the structure to support filtering, an
 
 ## Decision 007: Use Cα coordinates as the initial residue-level spatial representation
 Each residue is represented initially by its Cα coordinate because it provides a standard, compact, and interpretable residue-level anchor for structural analysis.
+
+## Decision 008: Use a centroid-distance heuristic as the first environment feature
+Before adding more rigorous solvent accessibility methods, residues are initially classified into approximate core and surface groups using Cα distance from the protein centroid as an interpretable geometric heuristic.
+
+
+
