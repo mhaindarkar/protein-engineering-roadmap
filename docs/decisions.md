@@ -48,4 +48,7 @@ A protein-only PDB export is created before sequence design so that downstream d
 ## Decision 016: Start ProteinMPNN design with small controlled runs
 Initial sequence generation is performed with a small number of sequences and low sampling temperature to ensure stable, interpretable outputs before scaling.
 
+## Decision 017: Represent designs as mutation-aware tables
+Generated sequences are converted into structured tables with mutation counts and positions to enable interpretable comparison and downstream filtering.
+
 

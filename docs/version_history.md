@@ -63,3 +63,10 @@
 - Generated initial set of candidate sequences using low-temperature sampling
 
 
+- Parsed ProteinMPNN output into structured design table
+- Added mutation count, mutation positions, and mutation strings
+- Enabled interpretable sequence-level comparison
+
+
+
+
