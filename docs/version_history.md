@@ -15,3 +15,9 @@
 - Parsed 1LYZ structure using Biopython
 - Extracted basic structural properties (models, chains, residues, atoms)
 - Established structure hierarchy understanding
+
+- Extracted amino acid sequence from 1LYZ structure
+- Saved sequence to data/processed
+- Established sequence–structure consistency
+
+
