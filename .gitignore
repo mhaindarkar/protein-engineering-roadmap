@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Coverage / testing
+.coverage
+pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data outputs that may become large
+results/logs/*.txt
+results/logs/*.out
+results/logs/*.err
+
+# Structure/design generated files that may be large or tool-specific
+results/structures/*.pdb
+results/structures/*.cif
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model/cache folders
+.cache/
