@@ -59,6 +59,7 @@
 - Exported a protein-only design file for downstream sequence design tools
 - Clarified the distinction between raw, clean, and protein-only structure inputs
 
-
+- Ran first ProteinMPNN design on 1LYZ backbone
+- Generated initial set of candidate sequences using low-temperature sampling
 
 

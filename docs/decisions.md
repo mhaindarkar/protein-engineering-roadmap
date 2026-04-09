@@ -44,3 +44,8 @@ A dedicated design-preparation notebook and cleaned structure export are used so
 
 ## Decision 015: Use a protein-only structure file for sequence design
 A protein-only PDB export is created before sequence design so that downstream design tools operate only on standard amino-acid residues from the intended structural template.
+
+## Decision 016: Start ProteinMPNN design with small controlled runs
+Initial sequence generation is performed with a small number of sequences and low sampling temperature to ensure stable, interpretable outputs before scaling.
+
+
