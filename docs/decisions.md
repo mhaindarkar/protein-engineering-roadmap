@@ -33,7 +33,7 @@ Before introducing energetic models or machine learning, mutation-priority logic
 ## Decision 011: Add simple residue chemistry classes before advanced scoring
 Basic amino-acid chemistry classes are added early so that residue selection can be interpreted in biochemical as well as structural terms before introducing more advanced energetic or machine-learning-based scoring.
 
-
-
+## Decision 012: Add a compact residue summary layer before design
+A compact summary table is created from the residue-level annotations so that the overall structural and biochemical character of the target protein can be reviewed before real design workflows begin.
 
 
