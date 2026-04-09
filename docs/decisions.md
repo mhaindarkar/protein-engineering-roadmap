@@ -42,3 +42,5 @@ A formal v0 completion checklist is saved so that the structure-analysis foundat
 ## Decision 014: Separate design preparation from structural analysis
 A dedicated design-preparation notebook and cleaned structure export are used so that downstream design workflows begin from a clearly defined and reproducible structural template.
 
+## Decision 015: Use a protein-only structure file for sequence design
+A protein-only PDB export is created before sequence design so that downstream design tools operate only on standard amino-acid residues from the intended structural template.

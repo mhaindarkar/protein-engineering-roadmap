@@ -55,3 +55,10 @@
 - Began the transition from v0 baseline analysis to real design workflow
 
 
+- Verified chain and residue content of the design structure
+- Exported a protein-only design file for downstream sequence design tools
+- Clarified the distinction between raw, clean, and protein-only structure inputs
+
+
+
+
