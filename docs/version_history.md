@@ -26,4 +26,5 @@
 - Built initial residue-level table from 1LYZ structure
 - Saved residue identity and numbering information to data/processed/residue_table.csv
 
-
+- Added residue-level Cα coordinates and backbone completeness flags
+- Upgraded residue_table.csv from identity-only to structure-aware representation

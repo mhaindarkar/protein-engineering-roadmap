@@ -18,4 +18,5 @@ Sequences are extracted separately for each chain to preserve biological correct
 ## Decision 006: Use a residue-level table as the main processed representation
 A residue-level CSV table is created from the structure to support filtering, annotation, scoring, and mutation logic in later stages of the project.
 
-
+## Decision 007: Use Cα coordinates as the initial residue-level spatial representation
+Each residue is represented initially by its Cα coordinate because it provides a standard, compact, and interpretable residue-level anchor for structural analysis.
