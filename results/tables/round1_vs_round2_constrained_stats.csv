@@ -1,0 +1,3 @@
+round,n_sequences,mean_mutations,median_mutations,min_mutations,max_mutations
+round1_unconstrained,5,71.2,70.0,67,76
+round2_constrained,11,28.818181818181817,32.0,0,35
