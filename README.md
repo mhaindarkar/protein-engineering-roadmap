@@ -1,39 +1,33 @@
 # Protein Engineering Roadmap
 
-A step-by-step protein engineering and protein bioinformatics portfolio project that starts from structural biology foundations and evolves into a modular AI-assisted protein design platform.
+## Overview
 
-## Long-term vision
+End-to-end computational protein design pipeline starting from structure (1LYZ) to final candidate selection.
 
-This repository is being built progressively from level zero to advanced versions, including:
+## Pipeline
 
-- structure-based protein design
-- constrained engineering workflows
-- candidate evaluation and scoring
-- protein language models
-- generative protein design
-- platform-style modularization
+Structure → Design → Validation → Scoring → Optimization
 
-## First target
+## Methods Used
 
-- Protein: Hen egg-white lysozyme
-- PDB: 1LYZ
+- ProteinMPNN (sequence design)
+- AlphaFold / ColabFold (structure prediction)
+- RMSD (structural similarity)
+- FoldX (energy evaluation)
+- Multi-metric ranking
 
-## Repository structure
+## Key Results
 
-- `data/` → raw and processed inputs
-- `scripts/` → reusable Python scripts
-- `notebooks/` → exploratory and teaching notebooks
-- `results/` → generated outputs
-- `figures/` → plots and visual summaries
-- `configs/` → parameters and settings
-- `docs/` → version history and project decisions
+- Mutation burden reduced ~70 → ~30
+- pLDDT improved (~95 → ~97)
+- RMSD improved (~0.83 → ~0.71)
+- Trade-off: FoldX energy slightly worse
 
+## Best Candidates
 
-## Environment setup
+See:
+results/tables/top_final_candidates.csv
 
-```bash
-conda create -n protein-roadmap python=3.11 -y
-conda activate protein-roadmap
-conda install -y jupyterlab pandas matplotlib numpy
-pip install biopython
-conda env export --no-builds > environment.yml
+## Entry Point
+
+👉 notebooks/00_full_pipeline_overview.ipynb
