@@ -1,0 +1,3 @@
+round,n_structures,mean_total_energy,median_total_energy,min_total_energy,max_total_energy
+round1_unconstrained,6,-5.74407335,-5.683574999999999,-13.6923,0.0760239
+round2_constrained,5,4.756634,5.13842,-3.65322,11.0382
