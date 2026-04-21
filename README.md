@@ -2,11 +2,18 @@
 
 ## Overview
 
-End-to-end computational protein design pipeline starting from structure (1LYZ) to final candidate selection.
+This project builds an end-to-end computational protein design workflow starting from a known protein structure and identifying improved design candidates using modern protein engineering tools.
 
-## Pipeline
+The pipeline integrates:
+- ProteinMPNN for sequence design
+- ColabFold (AlphaFold2) for structure prediction
+- RMSD analysis for structural comparison
+- FoldX for stability estimation
+- multi-metric ranking to select final candidates
 
-Structure → Design → Validation → Scoring → Optimization
+## Workflow
+
+Input structure → ProteinMPNN redesign → ColabFold prediction → RMSD comparison → FoldX stability → final ranking
 
 ## Methods Used
 
